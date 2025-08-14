@@ -16,7 +16,7 @@ import EnrollmentRoutes from './Kambaz/Enrollments/routes.js';
 const CONNECTION_STRING =
   process.env.MONGO_CONNECTION_STRING ||
   process.env.MONGO_URI ||
-  'mongodb://127.0.0.1:27017/kambaz';
+  'mongodb+srv://gishika68008:Aryangupta@kambaz.xwwnlhp.mongodb.net/?retryWrites=true&w=majority&appName=Kambaz';
 
 const PORT = process.env.PORT || 4000;
 console.log('🔗 Connecting to MongoDB with URI:', CONNECTION_STRING);

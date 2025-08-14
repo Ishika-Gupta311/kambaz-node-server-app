@@ -32,7 +32,7 @@ mongoose
     const allowedOrigins = [
       'http://localhost:5173',
       process.env.NETLIFY_URL,
-      'https://phenomenal-kitten-2fb0cd.netlify.app',
+      'https://loquacious-tarsier-fc79e4.netlify.app/',
     ];
 
     app.use(
